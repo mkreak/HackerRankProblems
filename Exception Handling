@@ -53,7 +53,7 @@ class MyCalculator {
         if(a<0||b<0){
             throw new Exception("n or p should not be negative.");
         }
-        else if(a==0||b==0){
+        else if(a==0 && b==0){
             throw new Exception("n and p should not be zero.");
         }
         else{
